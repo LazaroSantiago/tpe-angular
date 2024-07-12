@@ -32,15 +32,13 @@
     background-color: var(--main-desaturated);
 }
 
-.inner-minus {
-    display: block;
-    font-size: 50px;
-}
-
 img {
     margin: auto;
     height: 100%;
     width: 50%;
+    display: block;
+    font-size: 50px;
+    filter: invert(28%) sepia(10%) saturate(6708%) hue-rotate(114deg) brightness(90%) contrast(97%);
 }
 
 .inner-box {
