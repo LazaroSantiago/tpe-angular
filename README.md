@@ -1,14 +1,14 @@
-#Informacion Alumno:
+# Informacion Alumno:
 Santiago, Abbate Lázaro
 40225059
 santi.lazaro@gmail.com
 Tandil
 
-#Concepto
+# Concepto
 Soy voluntario en el Banco de Alimentos de Tandil. Por lo general se reciben donaciones de alimentos, y hay que contar los productos que entran, ej: 20 paquetes de harina de maiz de 900 gramos, 150 paquetes de pure de tomate de 360 gramos, etc. Para varios alimentos como el puré de tomate es importante también saber la fecha de vencimiento. Esta acción de contar, por lo general se hace con lapiz y papel, para después digitalizar.
 Mi idea para el proyecto fue hacer una simple app para poder contar los productos que entren, que permita exportar un archivo .CSV para facilitar el trabajo administrativo. Se puede crear un alimento y agregar la cantidad que haya. Hay una opción de mostrar por consola un equivalente a .CSV con los datos que haya, aunque me gustaría en algún momento hacer que de verdad se puedan guardar los datos en un archivo y poder enviar eso a un mail, pero obviamente eso queda por fuera del scope del seminario.
 
-#Requisitos Mínimos
+# Requisitos Mínimos
 Ruteo: para cumplir con la parte de ruteo, se creó una sección de previsualización de valores, un poco más parecida a un Excel. Es sencillamente una vista distinta de los datos que están en la vista principal. Cambiar de vista no debería generar ningún bug y los valores se mantienen actualizados.
 
 Componentes: la página principal utiliza cuatro componentes
