@@ -1,0 +1,22 @@
+<div class="list-box">
+    @for (item of items; track item.name) {
+    <div class="card">
+        <div class="minus" (click)="downQuantity(item)">
+            <img class="inner-minus" src="https://www.svgrepo.com/show/45046/minus.svg">
+        </div>
+
+        <div class="inner-box">
+            <div class="name">
+                <p>{{item.name}}</p>
+            </div>
+            <div class="count">
+                <p>{{item.quantity}}</p>
+            </div>
+        </div>
+        <div class="plus" (click)="upQuantity(item)">
+            <img class="inner-minus" src="https://www.svgrepo.com/show/2087/plus.svg">
+        </div>
+
+    </div>
+    }
+</div>

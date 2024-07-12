@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    width: 100%;
+    background-color: var(--secondary-desaturated);
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    background-color: var(--main);
+    aspect-ratio: 1/1;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.preview {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem;
+    background-color: var(--main-desaturated);
+    display: block;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.25rem;
+    min-height: 100%;
+}
+
+.preview:hover,
+.logo:hover {
+    background-color: var(--secondary-desaturated);
+    opacity: 90%;
+}
+
+//TODO: css, on click fancy animation

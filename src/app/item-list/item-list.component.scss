@@ -1,0 +1,76 @@
+.list-box {
+    height: 100%;
+    background-color: var(--main-desaturated);
+    border-radius: 10px;
+    overflow: scroll;
+    gap: 10px;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    scrollbar-color: var(--main) var(--grey);
+}
+
+.card {
+    width: 100%;
+    background-color: var(--white);
+    height: 4.5rem;
+    margin-top: 10px;
+    border-radius: 10000px;
+    opacity: 90%;
+    display: flex;
+}
+
+.minus,
+.plus {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.minus:hover,
+.plus:hover {
+    opacity: 80%;
+    cursor: pointer;
+    background-color: var(--main-desaturated);
+}
+
+.inner-minus {
+    display: block;
+    font-size: 50px;
+}
+
+img {
+    margin: auto;
+    height: 100%;
+    width: 50%;
+}
+
+.inner-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name,
+.count {
+    text-overflow: clip;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    margin-top: 3px;
+    font-size: x-large;
+}
+
+input{
+    align-self: center;
+    font-size: x-large;
+    padding: 0;
+    border: none;
+    width: 5rem;
+    text-align: center;
+    height: auto;
+    border: 2px solid var(--black);
+}

@@ -1,0 +1,16 @@
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Vencimiento</th>
+        <th>Peso</th>
+        <th>Cantidad</th>
+    </tr>
+    @for (item of items; track item.name) {
+    <tr>
+        <td>{{item.name}}</td>
+        <td>{{item.yearExpiration}}</td>
+        <td>{{item.weight}}</td>
+        <td>{{item.quantity}}</td>
+    </tr>
+    }
+</table>

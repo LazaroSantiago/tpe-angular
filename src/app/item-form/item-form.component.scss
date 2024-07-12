@@ -1,0 +1,56 @@
+form{
+    display: flex;
+}
+
+.outer-box{
+    height:100%;
+    background-color: var(--main-desaturated);
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-box{
+    height: 70%;
+}
+
+.field-descriptor{
+    margin: 20px;
+    width: fit-content;
+    margin-right: 0;
+}
+
+p{
+    margin: 1em;
+    font-size: large;
+    font-weight: 550;
+    color: var(--white);
+}
+
+.inputs{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: var(--black);
+    border: dashed 2px var(--black);
+    padding: 4px;
+    display: none;
+}
+.span-wrapper{
+    height: 1em;
+}
+input{
+    margin-top: 0.75em;
+    font-size: large;
+    width: 100%;
+}
+
+// button{
+//     margin-bottom: 2.5em;
+// }

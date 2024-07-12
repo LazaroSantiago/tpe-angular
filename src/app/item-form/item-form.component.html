@@ -1,0 +1,26 @@
+<div class="outer-box">
+    <div class="inner-box">
+        <form [formGroup]="itemForm">
+            <div class="field-descriptor">
+                <p>Nombre</p>
+                <p>Peso (KG)</p>
+                <p>Vencimiento</p>
+            </div>
+
+            <div class="inputs">
+                <input type="text" formControlName="name" placeholder="Fideos Guiseros">
+                <input type="text" formControlName="weight" placeholder="200">
+                <div>
+                    <input type="text" formControlName="yearExpiration" placeholder="2025">
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+    <div class="span-wrapper">
+        <span>No se pueden crear dos items con el mismo nombre.</span>
+    </div>
+    <button type="submit" (click)="createItem()">Crear Item</button>
+
+</div>
